@@ -13,4 +13,7 @@
     align-content: center;
     gap: 1cm;
   }
+  #aboutme h1 {
+    font-size: 2em;
+  }
 }

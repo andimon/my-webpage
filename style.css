@@ -36,6 +36,7 @@ body {
 */
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 /*
@@ -96,9 +97,7 @@ stop cursor from changing when going on logo
 }
 .logo img {
   margin: auto;
-  height: 20vh;
   width: 20vh;
-  border-radius: 50%;
   transition: transform 0.5s ease;
 }
 .logo:hover {
@@ -116,4 +115,74 @@ stop cursor from changing when going on logo
 .mobile-menu {
   position: relative;
   display: inline-block;
+}
+
+/* about me */
+#aboutme {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style: none;
+  align-content: center;
+  gap: 1cm;
+}
+
+#aboutme h1 {
+  font-size: 4em;
+}
+
+.about-me-header {
+  display: flex;
+  text-align: center;
+  color: var(--mainLightest);
+  align-items: center;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+
+.grad-me-cropped{
+  width: 9%;
+  height:  9%;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vh ;
+  margin-top: 10vh  ;
+  display: flex;
+}
+
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163,163,163   );
+}
+
+.arrow {
+  display: inline-block;
+  font-size: 1.5rem;
+  gap: 0pt;
+  background: white;
+  margin: auto;
+  align-content: center;
+  border-radius: 2rem;
+  width: 12vw;
+}
+
+.arrow p {
+  color: var(--mainDarkest);
+}
+.arrow i {
+  margin: 0;
+  font-size: 60px;
+  padding: 0;
 }
